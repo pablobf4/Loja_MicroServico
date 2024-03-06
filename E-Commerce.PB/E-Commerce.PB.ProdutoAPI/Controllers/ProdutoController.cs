@@ -1,6 +1,6 @@
 ﻿using E_Commerce.PB.ProdutoAPI.Data.DTO;
-using E_Commerce.PB.ProdutoAPI.Model.util;
-using GeekShooping.API.Repository;
+using E_Commerce.PB.ProdutoAPI.Repository;
+using E_Commerce.PB.ProdutoAPI.Utils;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

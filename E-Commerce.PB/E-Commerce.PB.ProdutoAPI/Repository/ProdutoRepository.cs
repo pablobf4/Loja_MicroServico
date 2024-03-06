@@ -4,7 +4,6 @@ using AutoMapper;
 using E_Commerce.PB.ProdutoAPI.Data.DTO;
 using E_Commerce.PB.ProdutoAPI.Model.Base;
 using E_Commerce.PB.ProdutoAPI.Model.Context;
-using GeekShooping.API.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.PB.ProdutoAPI.Repository

@@ -1,6 +1,6 @@
 ﻿using E_Commerce.PB.ProdutoAPI.Data.DTO;
 
-namespace GeekShooping.API.Repository
+namespace E_Commerce.PB.ProdutoAPI.Repository
 {
     public interface IProdutoRepository
     {

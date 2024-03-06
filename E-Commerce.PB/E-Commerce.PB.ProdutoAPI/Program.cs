@@ -2,7 +2,6 @@ using AutoMapper;
 using E_Commerce.PB.ProdutoAPI.Config;
 using E_Commerce.PB.ProdutoAPI.Model.Context;
 using E_Commerce.PB.ProdutoAPI.Repository;
-using GeekShooping.API.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;

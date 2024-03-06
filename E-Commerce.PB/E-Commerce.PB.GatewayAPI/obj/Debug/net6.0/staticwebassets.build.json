@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3dak5GCCBDl/WTmg5YAgq5n2hOA7RkSmbTmgQcvYXvM=",
+  "Source": "E-Commerce.PB.GatewayAPI",
+  "BasePath": "_content/E-Commerce.PB.GatewayAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

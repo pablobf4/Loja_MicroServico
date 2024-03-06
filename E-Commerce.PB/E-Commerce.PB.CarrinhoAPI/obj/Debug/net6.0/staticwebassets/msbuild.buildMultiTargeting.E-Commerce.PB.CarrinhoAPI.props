@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\E-Commerce.PB.CarrinhoAPI.props" />
+</Project>

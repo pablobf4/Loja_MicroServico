@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CarrinhoAPI\\E-Commerce.PB.CarrinhoAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CarrinhoAPI\\E-Commerce.PB.CarrinhoAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CarrinhoAPI\\E-Commerce.PB.CarrinhoAPI.csproj",
+        "projectName": "E-Commerce.PB.CarrinhoAPI",
+        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CarrinhoAPI\\E-Commerce.PB.CarrinhoAPI.csproj",
+        "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CarrinhoAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pablo.barros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://10.1.1.46/DefaultCollection/SisCom/_packaging/SisCom/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj": {
+                "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj",
+        "projectName": "E-Commerce.PB.MessageBus",
+        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj",
+        "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pablo.barros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://10.1.1.46/DefaultCollection/SisCom/_packaging/SisCom/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

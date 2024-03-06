@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gaCtrGytC1mL3Vt53o7vKeW02V8QuIbXvyLE10+PekB8szW79PKXy7dRpXVyqHjoFmaIzvS6+6j+Px8sOZgcfQ==",
+  "success": true,
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Você está executando a operação 'restore' com uma fonte 'HTTP', 'http://10.1.1.46/DefaultCollection/SisCom/_packaging/SisCom/nuget/v3/index.json'. O acesso não HTTPS será removido em uma versão futura. Considere migrar para uma fonte 'HTTPS'."
+    }
+  ]
+}

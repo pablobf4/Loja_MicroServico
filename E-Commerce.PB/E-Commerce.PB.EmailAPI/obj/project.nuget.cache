@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "rY0F6iskMdZkO4STcvZsZiVV+SLRDuHCSAy+BEnC9pQCNV7NSdKZr+zPNT4tjHpMGfs9/qUsCyczVNHR2Cp0MQ==",
+  "success": true,
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\pablo.barros\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\pablo.barros\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\pablo.barros\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\pablo.barros\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Você está executando a operação 'restore' com uma fonte 'HTTP', 'http://10.1.1.46/DefaultCollection/SisCom/_packaging/SisCom/nuget/v3/index.json'. O acesso não HTTPS será removido em uma versão futura. Considere migrar para uma fonte 'HTTPS'."
+    }
+  ]
+}

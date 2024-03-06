@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:60272",
-      "sslPort": 44355
+      "applicationUrl": "http://localhost:61431",
+      "sslPort": 4460
     }
   },
   "profiles": {
-    "E_Commerce.PB.EmailAPI": {
+    "E-Commerce.PB.EmailAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7050;http://localhost:5188",
+      "applicationUrl": "https://localhost:4460;http://localhost:4461",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

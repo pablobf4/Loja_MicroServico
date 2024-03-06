@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:1724",
-      "sslPort": 44301
+      "applicationUrl": "http://localhost:18281",
+      "sslPort": 4445
     }
   },
   "profiles": {
-      "E-Commerce.PB.CarrinhoAPI": {
+    "E-Commerce.PB.CarrinhoAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:44301;http://localhost:44302",
+      "applicationUrl": "https://localhost:4445;http://localhost:4446",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -4,12 +4,12 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:43878",
+      "applicationUrl": "http://localhost:7928",
       "sslPort": 4450
     }
   },
   "profiles": {
-    "E_Commerce.PB.CuponAPI": {
+    "E-Commerce.PB.CuponAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

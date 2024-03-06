@@ -4,12 +4,12 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:4599",
+      "applicationUrl": "http://localhost:37602",
       "sslPort": 4440
     }
   },
   "profiles": {
-    "E_Commerce.PB.ProdutoAPI": {
+    "E-Commerce.PB.ProdutoAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

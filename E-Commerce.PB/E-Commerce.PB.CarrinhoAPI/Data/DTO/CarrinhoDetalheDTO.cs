@@ -8,7 +8,7 @@ namespace E_Commerce.PB.CarrinhoAPI.Data.DTO
         public long Id { get; set; }
         public long CarrinhoCabecalhoId { get; set; }
         public CarrinhoCabecalhoDTO? CarrinhoCabecalho { get; set; }
-        public long ProductId { get; set; }
+        public long produtoId { get; set; }
         public ProdutoDTO Produto { get; set; }
         public int Conta { get; set; }
     }

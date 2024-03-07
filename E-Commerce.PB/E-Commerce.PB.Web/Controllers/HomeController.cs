@@ -12,29 +12,29 @@ namespace E_Commerce.PB.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IProdutoService _productService;
+        private readonly IProdutoService _produtoService;
         private readonly ICarrinhoService _cartService;
 
         public HomeController(ILogger<HomeController> logger,
-            IProdutoService productService,
+            IProdutoService produtoService,
             ICarrinhoService cartService)
         {
             _logger = logger;
-            _productService = productService;
+            _produtoService = produtoService;
             _cartService = cartService;
         }
 
         public async Task<IActionResult> Index()
         {
-            var products = await _productService.FindAllProducts("");
-            return View(products);
+            var produtos = await _produtoService.FindAllprodutos("");
+            return View(produtos);
         }
 
         [Authorize]
         public async Task<IActionResult> Details(int id)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
-            var model = await _productService.FindProductById(id, token);
+            var model = await _produtoService.FindprodutoById(id, token);
             return View(model);
         }
 
@@ -57,7 +57,7 @@ namespace E_Commerce.PB.Web.Controllers
             {
                 Contar = model.Count,
                 ProdutotId = model.Id,
-                Produto = await _productService.FindProductById(model.Id, token)
+                Produto = await _produtoService.FindprodutoById(model.Id, token)
             };
 
             List<CarrinhoDetalheViewModel> carrinhoDetalhe = new List<CarrinhoDetalheViewModel>();

@@ -11,77 +11,77 @@ namespace E_Commerce.PB.Web.Controllers
 {
     public class ProdutoController : Controller
     {
-        private readonly IProdutoService _productService;
+        private readonly IProdutoService _produtoService;
 
-        public ProdutoController(IProdutoService productService)
+        public ProdutoController(IProdutoService produtoService)
         {
-            _productService = productService ?? throw new ArgumentNullException(nameof(productService));
+            _produtoService = produtoService ?? throw new ArgumentNullException(nameof(produtoService));
         }
 
-        public async Task<IActionResult> ProductIndex()
+        public async Task<IActionResult> produtoIndex()
         {
-            var products = await _productService.FindAllProducts("");
-            return View(products);
+            var produtos = await _produtoService.FindAllprodutos("");
+            return View(produtos);
         }
 
-        public async Task<IActionResult> ProductCreate()
+        public async Task<IActionResult> produtoCreate()
         {
             return View();
         }
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> ProductCreate(ProdutoViewModel model)
+        public async Task<IActionResult> produtoCreate(ProdutoViewModel model)
         {
             if (ModelState.IsValid)
             {
                 var token = await HttpContext.GetTokenAsync("access_token");
-                var response = await _productService.CreateProduct(model, token);
+                var response = await _produtoService.Createproduto(model, token);
                 if (response != null) return RedirectToAction(
-                     nameof(ProductIndex));
+                     nameof(produtoIndex));
             }
             return View(model);
         }
 
-        public async Task<IActionResult> ProductUpdate(int id)
+        public async Task<IActionResult> produtoUpdate(int id)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
-            var model = await _productService.FindProductById(id, token);
+            var model = await _produtoService.FindprodutoById(id, token);
             if (model != null) return View(model);
             return NotFound();
         }
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> ProductUpdate(ProdutoViewModel model)
+        public async Task<IActionResult> produtoUpdate(ProdutoViewModel model)
         {
             if (ModelState.IsValid)
             {
                 var token = await HttpContext.GetTokenAsync("access_token");
-                var response = await _productService.UpdateProduct(model, token);
+                var response = await _produtoService.Updateproduto(model, token);
                 if (response != null) return RedirectToAction(
-                     nameof(ProductIndex));
+                     nameof(produtoIndex));
             }
             return View(model);
         }
 
         [Authorize]
-        public async Task<IActionResult> ProductDelete(int id)
+        public async Task<IActionResult> produtoDelete(int id)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
-            var model = await _productService.FindProductById(id, token);
+            var model = await _produtoService.FindprodutoById(id, token);
             if (model != null) return View(model);
             return NotFound();
         }
 
         [HttpPost]
         [Authorize(Roles = Role.Admin)]
-        public async Task<IActionResult> ProductDelete(ProdutoViewModel model)
+        public async Task<IActionResult> produtoDelete(ProdutoViewModel model)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
-            var response = await _productService.DeleteProductById(model.Id, token);
+            var response = await _produtoService.DeleteprodutoById(model.Id, token);
             if (response) return RedirectToAction(
-                    nameof(ProductIndex));
+                    nameof(produtoIndex));
             return View(model);
         }
     }

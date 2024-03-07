@@ -75,9 +75,9 @@ namespace E_Commerce.PB.OrdemAPI.MessageConsumer
             {
                 OrdemDetalhe detail = new()
                 {
-                    IdProduto = details.ProductId,
-                    NomeProduto = details.Product.Name,
-                    Preco = details.Product.Price
+                    IdProduto = details.produtoId,
+                    NomeProduto = details.produto.Name,
+                    Preco = details.produto.Price
                     //  = details.Count,
                 };
                 order.TotalItensCarrinho += details.Count;

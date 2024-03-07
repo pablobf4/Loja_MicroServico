@@ -108,11 +108,11 @@ namespace E_Commerce.PB.CarrinhoAPI.Repository
         public async Task<CarrinhoDTO> SaveOrUpdateCart(CarrinhoDTO vo)
         {
             Carrinho cart = _mapper.Map<Carrinho>(vo);
-            //Checks if the product is already saved in the database if it does not exist then save
-            var product = await _context.Produtos.FirstOrDefaultAsync(
-                p => p.Id == vo.CarrinhoDetalhe.FirstOrDefault().ProductId);
+            //Checks if the produto is already saved in the database if it does not exist then save
+            var produto = await _context.Produtos.FirstOrDefaultAsync(
+                p => p.Id == vo.CarrinhoDetalhe.FirstOrDefault().produtoId);
 
-            if (product == null)
+            if (produto == null)
             {
                 _context.Produtos.Add(cart.CarrinhoDetalhe.FirstOrDefault().Produto);
                 await _context.SaveChangesAsync();
@@ -144,7 +144,7 @@ namespace E_Commerce.PB.CarrinhoAPI.Repository
             else
             {
                 //If CartHeader is not null
-                //Check if CartDetails has same product
+                //Check if CartDetails has same produto
                 var carrinhoDetalhe = await _context.CarrinhoDetalhes.AsNoTracking().FirstOrDefaultAsync(
                     p => p.ProdutoId == cart.CarrinhoDetalhe.FirstOrDefault().ProdutoId &&
                     p.CarrinhoCabecalhoId == cartHeader.Id);
@@ -159,7 +159,7 @@ namespace E_Commerce.PB.CarrinhoAPI.Repository
                 }
                 else
                 {
-                    //Update product count and CartDetails
+                    //Update produto count and CartDetails
                     cart.CarrinhoDetalhe.FirstOrDefault().Produto = null;
                     cart.CarrinhoDetalhe.FirstOrDefault().Contar += carrinhoDetalhe.Contar;
                     cart.CarrinhoDetalhe.FirstOrDefault().Id = carrinhoDetalhe.Id;

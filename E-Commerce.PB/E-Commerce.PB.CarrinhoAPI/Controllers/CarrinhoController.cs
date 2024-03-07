@@ -23,28 +23,28 @@ namespace E_Commerce.PB.CarrinhoAPI.Controllers
                 ArgumentNullException(nameof(repository));
         }
 
-        [HttpGet("find-cart/{id}")]
+        [HttpGet("find-carrinho/{id}")]
         public async Task<ActionResult<CarrinhoDTO>> FindById(string id)
         {
-            var cart = await _repository.FindCartByUserId(id);
-            if (cart == null) return NotFound();
-            return Ok(cart);
+            var carrinho = await _repository.FindCartByUserId(id);
+            if (carrinho == null) return NotFound();
+            return Ok(carrinho);
         }
 
-        [HttpPost("add-cart")]
-        public async Task<ActionResult<CarrinhoDTO>> AddCart(CarrinhoDTO vo)
+        [HttpPost("add-carrinho")]
+        public async Task<ActionResult<CarrinhoDTO>> Addcarrinho(CarrinhoDTO vo)
         {
-            var cart = await _repository.SaveOrUpdateCart(vo);
-            if (cart == null) return NotFound();
-            return Ok(cart);
+            var carrinho = await _repository.SaveOrUpdateCart(vo);
+            if (carrinho == null) return NotFound();
+            return Ok(carrinho);
         }
 
-        [HttpPut("update-cart")]
-        public async Task<ActionResult<CarrinhoDTO>> UpdateCart(CarrinhoDTO vo)
+        [HttpPut("update-carrinho")]
+        public async Task<ActionResult<CarrinhoDTO>> Updatecarrinho(CarrinhoDTO vo)
         {
-            var cart = await _repository.SaveOrUpdateCart(vo);
-            if (cart == null) return NotFound();
-            return Ok(cart);
+            var carrinho = await _repository.SaveOrUpdateCart(vo);
+            if (carrinho == null) return NotFound();
+            return Ok(carrinho);
         }
 
 
@@ -75,8 +75,8 @@ namespace E_Commerce.PB.CarrinhoAPI.Controllers
             string token = Request.Headers["Authorization"];
 
             if (vo?.UserId == null) return BadRequest();
-            var cart = await _repository.FindCartByUserId(vo.UserId);
-            if (cart == null) return NotFound();
+            var carrinho = await _repository.FindCartByUserId(vo.UserId);
+            if (carrinho == null) return NotFound();
             if (!string.IsNullOrEmpty(vo.CuponCode))
             {
                 CuponDTO coupon = await _couponRepository.GetCoupon(
@@ -86,7 +86,7 @@ namespace E_Commerce.PB.CarrinhoAPI.Controllers
                     return StatusCode(412);
                 }
             }
-            vo.CarrinhoDetalhe = cart.CarrinhoDetalhe;
+            vo.CarrinhoDetalhe = carrinho.CarrinhoDetalhe;
             vo.Data = DateTime.Now;
 
             // RabbitMQ logic comes here!!!
@@ -99,8 +99,8 @@ namespace E_Commerce.PB.CarrinhoAPI.Controllers
 
 
 
-        [HttpDelete("remove-cart/{id}")]
-        public async Task<ActionResult<CarrinhoDTO>> RemoveCart(int id)
+        [HttpDelete("remove-carrinho/{id}")]
+        public async Task<ActionResult<CarrinhoDTO>> Removecarrinho(int id)
         {
             var status = await _repository.RemoveFromCart(id);
             if (!status) return BadRequest();

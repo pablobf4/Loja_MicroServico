@@ -11,7 +11,7 @@ namespace E_Commerce.PB.Web.Services
     public class CarrinhoService : ICarrinhoService
     {
         private readonly HttpClient _client;
-        public const string BasePath = "api/v1/cart";
+        public const string BasePath = "api/cart";
 
         public CarrinhoService(HttpClient client)
         {

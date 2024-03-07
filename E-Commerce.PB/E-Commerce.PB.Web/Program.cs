@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<IProdutoService, ProdutoService>(c =>
-c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"]));
+c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:produtoAPI"]));
 
 builder.Services.AddHttpClient<ICarrinhoService, CarrinhoService>(c =>
     c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CartAPI"]));

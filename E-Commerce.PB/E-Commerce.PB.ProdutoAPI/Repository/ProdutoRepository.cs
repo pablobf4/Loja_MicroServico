@@ -21,19 +21,19 @@ namespace E_Commerce.PB.ProdutoAPI.Repository
         }
         public async Task<ProdutoDTO> Create(ProdutoDTO dto)
         {
-            Produto products = _mapper.Map<Produto>(dto);
-            _context.Produtos.Add(products);
+            Produto produtos = _mapper.Map<Produto>(dto);
+            _context.Produtos.Add(produtos);
             await _context.SaveChangesAsync();
-            return _mapper.Map<ProdutoDTO>(products);
+            return _mapper.Map<ProdutoDTO>(produtos);
         }
 
         public async Task<bool> Delete(long id)
         {
             try
             {
-                Produto product = await _context.Produtos.Where(p => p.Id == id).FirstOrDefaultAsync() ?? new Produto();
-                if (product.Id <= 0) return false;
-                _context.Produtos.Remove(product);
+                Produto produto = await _context.Produtos.Where(p => p.Id == id).FirstOrDefaultAsync() ?? new Produto();
+                if (produto.Id <= 0) return false;
+                _context.Produtos.Remove(produto);
                 await _context.SaveChangesAsync();
                 return true;
             }
@@ -45,22 +45,22 @@ namespace E_Commerce.PB.ProdutoAPI.Repository
         }
         public async Task<ProdutoDTO> Update(ProdutoDTO dto)
         {
-            Produto products = _mapper.Map<Produto>(dto);
-            _context.Produtos.Update(products);
+            Produto produtos = _mapper.Map<Produto>(dto);
+            _context.Produtos.Update(produtos);
             await _context.SaveChangesAsync();
-            return _mapper.Map<ProdutoDTO>(products);
+            return _mapper.Map<ProdutoDTO>(produtos);
         }
 
         public async Task<IEnumerable<ProdutoDTO>> FindAll()
         {
-            List<Produto> products = await _context.Produtos.ToListAsync();
-            return _mapper.Map<List<ProdutoDTO>>(products);
+            List<Produto> produtos = await _context.Produtos.ToListAsync();
+            return _mapper.Map<List<ProdutoDTO>>(produtos);
         }
 
         public async Task<ProdutoDTO> FindById(long id)
         {
-            Produto product = await _context.Produtos.Where(p=> p.Id == id).FirstOrDefaultAsync() ?? new Produto();
-            return _mapper.Map<ProdutoDTO>(product);
+            Produto produto = await _context.Produtos.Where(p=> p.Id == id).FirstOrDefaultAsync() ?? new Produto();
+            return _mapper.Map<ProdutoDTO>(produto);
         }
 
       

@@ -6,10 +6,10 @@ namespace E_Commerce.PB.Web.Services.IServices
 {
     public interface IProdutoService
     {
-        Task<IEnumerable<ProdutoViewModel>> FindAllProducts(string token);
-        Task<ProdutoViewModel> FindProductById(long id, string token);
-        Task<ProdutoViewModel> CreateProduct(ProdutoViewModel model, string token);
-        Task<ProdutoViewModel> UpdateProduct(ProdutoViewModel model, string token);
-        Task<bool> DeleteProductById(long id, string token);
+        Task<IEnumerable<ProdutoViewModel>> FindAllprodutos(string token);
+        Task<ProdutoViewModel> FindprodutoById(long id, string token);
+        Task<ProdutoViewModel> Createproduto(ProdutoViewModel model, string token);
+        Task<ProdutoViewModel> Updateproduto(ProdutoViewModel model, string token);
+        Task<bool> DeleteprodutoById(long id, string token);
     }
 }

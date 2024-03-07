@@ -9,15 +9,15 @@ namespace E_Commerce.PB.Web.Controllers
 {
     public class CarrinhoController : Controller
     {
-        private readonly IProdutoService _productService;
+        private readonly IProdutoService _produtoService;
         private readonly ICarrinhoService _cartService;
         private readonly ICuponService _couponService;
 
-        public CarrinhoController(IProdutoService productService,
+        public CarrinhoController(IProdutoService produtoService,
             ICarrinhoService cartService,
             ICuponService couponService)
         {
-            _productService = productService;
+            _produtoService = produtoService;
             _cartService = cartService;
             _couponService = couponService;
         }

@@ -23,18 +23,18 @@ namespace E_Commerce.PB.ProdutoAPI.Controllers
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> FindAll()
         {
 
-            var products = await _repository.FindAll();
-            if (products == null) return NotFound();
-            return Ok(products);
+            var produtos = await _repository.FindAll();
+            if (produtos == null) return NotFound();
+            return Ok(produtos);
         }
         [HttpGet("{id}")]
         [Authorize]
         public async Task<ActionResult<ProdutoDTO>> FindById(long id)
         {
 
-            var product = await _repository.FindById(id);
-            if (product.Id <= 0) return NotFound();
-            return Ok(product);
+            var produto = await _repository.FindById(id);
+            if (produto.Id <= 0) return NotFound();
+            return Ok(produto);
         }
 
         [HttpPost]
@@ -42,8 +42,8 @@ namespace E_Commerce.PB.ProdutoAPI.Controllers
         public async Task<ActionResult<ProdutoDTO>> Create(ProdutoDTO dto)
         {
             if (dto == null) return NotFound();
-            var product = await _repository.Create(dto);
-            return Ok(product);
+            var produto = await _repository.Create(dto);
+            return Ok(produto);
         }
 
         [HttpPut]
@@ -51,8 +51,8 @@ namespace E_Commerce.PB.ProdutoAPI.Controllers
         public async Task<ActionResult<ProdutoDTO>> Update(ProdutoDTO dto)
         {
             if (dto == null) return BadRequest();
-            var product = await _repository.Update(dto);
-            return Ok(product);
+            var produto = await _repository.Update(dto);
+            return Ok(produto);
         }
         [HttpDelete("{id}")]
         public async Task<ActionResult<ProdutoDTO>> Delete(long id)

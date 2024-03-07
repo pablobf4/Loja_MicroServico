@@ -9,3 +9,15 @@ C:\WorkSpace\MicroServicoEstudo\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\
 C:\WorkSpace\MicroServicoEstudo\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\refint\E-Commerce.PB.Pagamento.Processar.dll
 C:\WorkSpace\MicroServicoEstudo\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.pdb
 C:\WorkSpace\MicroServicoEstudo\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\ref\E-Commerce.PB.Pagamento.Processar.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\bin\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.deps.json
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\bin\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\bin\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.pdb
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.AssemblyInfoInputs.cache
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.AssemblyInfo.cs
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.csproj.CoreCompileInputs.cache
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.sourcelink.json
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\refint\E-Commerce.PB.Pagamento.Processar.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\E-Commerce.PB.Pagamento.Processar.pdb
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Pagamento.Processar\obj\Debug\net6.0\ref\E-Commerce.PB.Pagamento.Processar.dll

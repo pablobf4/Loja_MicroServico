@@ -9,3 +9,15 @@ C:\WorkSpace\MicroServicoEstudo\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug
 C:\WorkSpace\MicroServicoEstudo\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\refint\E-Commerce.PB.MessageBus.dll
 C:\WorkSpace\MicroServicoEstudo\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\E-Commerce.PB.MessageBus.pdb
 C:\WorkSpace\MicroServicoEstudo\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\ref\E-Commerce.PB.MessageBus.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\bin\Debug\net6.0\E-Commerce.PB.MessageBus.deps.json
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\bin\Debug\net6.0\E-Commerce.PB.MessageBus.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\bin\Debug\net6.0\E-Commerce.PB.MessageBus.pdb
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\E-Commerce.PB.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\E-Commerce.PB.MessageBus.AssemblyInfoInputs.cache
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\E-Commerce.PB.MessageBus.AssemblyInfo.cs
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\E-Commerce.PB.MessageBus.csproj.CoreCompileInputs.cache
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\E-Commerce.PB.MessageBus.sourcelink.json
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\E-Commerce.PB.MessageBus.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\refint\E-Commerce.PB.MessageBus.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\E-Commerce.PB.MessageBus.pdb
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.MessageBus\obj\Debug\net6.0\ref\E-Commerce.PB.MessageBus.dll

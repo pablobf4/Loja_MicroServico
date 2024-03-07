@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zHxrW+MD9pXD5SY7kuSGPh+FEvyhrrRqrXvybvoZtgLgv2m2Vucqs4OxGBQsCWUOK1vZ++D88kNkxqBVkUBRQg==",
+  "dgSpecHash": "KrRif3MDNXPUjsbxPz0LPpy2x1y1iwIrwLR3GcP7vrYN15m8dWXk/JgsrVLI3Rn4S3i64M6B1EOxHCgDJaI60A==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0-preview.6.21355.2\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0-preview.6.21355.2.nupkg.sha512",
@@ -29,8 +29,6 @@
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\pablo.barros\\.nuget\\packages\\mysqlconnector\\1.3.10\\mysqlconnector.1.3.10.nupkg.sha512",
-    "C:\\Users\\pablo.barros\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.0-preview.5\\pomelo.entityframeworkcore.mysql.6.0.0-preview.5.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.4.0\\swashbuckle.aspnetcore.annotations.6.4.0.nupkg.sha512",

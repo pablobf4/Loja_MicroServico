@@ -1,4 +1,7 @@
 ﻿
+using E_Commerce.PB.Web.Models;
+using E_Commerce.PB.Web.Services.IServices;
+using E_Commerce.PB.Web.Utils;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,9 +11,9 @@ namespace E_Commerce.PB.Web.Controllers
 {
     public class ProdutoController : Controller
     {
-        private readonly IProductService _productService;
+        private readonly IProdutoService _productService;
 
-        public ProdutoController(IProductService productService)
+        public ProdutoController(IProdutoService productService)
         {
             _productService = productService ?? throw new ArgumentNullException(nameof(productService));
         }
@@ -28,7 +31,7 @@ namespace E_Commerce.PB.Web.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> ProductCreate(ProductViewModel model)
+        public async Task<IActionResult> ProductCreate(ProdutoViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -50,7 +53,7 @@ namespace E_Commerce.PB.Web.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> ProductUpdate(ProductViewModel model)
+        public async Task<IActionResult> ProductUpdate(ProdutoViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -73,7 +76,7 @@ namespace E_Commerce.PB.Web.Controllers
 
         [HttpPost]
         [Authorize(Roles = Role.Admin)]
-        public async Task<IActionResult> ProductDelete(ProductViewModel model)
+        public async Task<IActionResult> ProductDelete(ProdutoViewModel model)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
             var response = await _productService.DeleteProductById(model.Id, token);

@@ -1,4 +1,6 @@
 ﻿
+using E_Commerce.PB.Web.Models;
+using E_Commerce.PB.Web.Services.IServices;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -10,12 +12,12 @@ namespace E_Commerce.PB.Web.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IProductService _productService;
-        private readonly ICartService _cartService;
+        private readonly IProdutoService _productService;
+        private readonly ICarrinhoService _cartService;
 
         public HomeController(ILogger<HomeController> logger,
-            IProductService productService,
-            ICartService cartService)
+            IProdutoService productService,
+            ICarrinhoService cartService)
         {
             _logger = logger;
             _productService = productService;
@@ -39,28 +41,28 @@ namespace E_Commerce.PB.Web.Controllers
         [HttpPost]
         [ActionName("Details")]
         [Authorize]
-        public async Task<IActionResult> DetailsPost(ProductViewModel model)
+        public async Task<IActionResult> DetailsPost(ProdutoViewModel model)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
 
-            CartViewModel cart = new()
+            CarrinhoViewModel cart = new()
             {
-                CartHeader = new CartHeaderViewModel
+                CartCabecalho = new CarrinhoCabecalhoViewModel
                 {
                     UserId = User.Claims.Where(u => u.Type == "sub")?.FirstOrDefault()?.Value
                 }
             };
 
-            CartDetailViewModel cartDetail = new CartDetailViewModel()
+            CarrinhoDetalheViewModel cartDetail = new CarrinhoDetalheViewModel()
             {
-                Count = model.Count,
-                ProductId = model.Id,
-                Product = await _productService.FindProductById(model.Id, token)
+                Contar = model.Count,
+                ProdutotId = model.Id,
+                Produto = await _productService.FindProductById(model.Id, token)
             };
 
-            List<CartDetailViewModel> cartDetails = new List<CartDetailViewModel>();
-            cartDetails.Add(cartDetail);
-            cart.CartDetails = cartDetails;
+            List<CarrinhoDetalheViewModel> carrinhoDetalhe = new List<CarrinhoDetalheViewModel>();
+            carrinhoDetalhe.Add(cartDetail);
+            cart.CartDetalhe = carrinhoDetalhe;
 
             var response = await _cartService.AddItemToCart(cart, token);
             if(response != null)

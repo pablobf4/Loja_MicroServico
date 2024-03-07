@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c3FMsScHKa+iUUSdXY6giPIK1MF0VxaqSh8W4FJMtCdyR8kJflKyt+BXOQ4uSQ32gt+0PmLldU66DNBrzdHuYg==",
+  "dgSpecHash": "L4qg/hLKan/QOQmE1CCJJzcOdGznz7M0yFdZFCS3qAG9C2c5r1rFBdRp/IcJ+jlhPKJ5sOGfLvKJK0qeHRRS0g==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.Web\\E-Commerce.PB.Web.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.Web\\E-Commerce.PB.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\pablo.barros\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
+    "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.0-preview.7.21378.6\\microsoft.aspnetcore.authentication.openidconnect.6.0.0-preview.7.21378.6.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj": {}
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj": {
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj",
         "projectName": "E-Commerce.PB.GatewayAPI",
-        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj",
+        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj",
         "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\obj\\",
+        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

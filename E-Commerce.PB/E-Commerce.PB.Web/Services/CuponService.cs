@@ -1,17 +1,13 @@
-﻿using GeekShopping.Web.Models;
-using GeekShopping.Web.Services.IServices;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿
 using System.Net.Http.Headers;
-using System.Net.Http;
-using System.Threading.Tasks;
-using GeekShopping.Web.Utils;
 using System.Net;
+using E_Commerce.PB.Web.Services.IServices;
+using E_Commerce.PB.Web.Models;
+using E_Commerce.PB.Web.Utils;
 
 namespace E_Commerce.PB.Web.Services
 {
-    public class CuponService : ICouponService
+    public class CuponService : ICuponService
     {
         private readonly HttpClient _client;
         public const string BasePath = "api/v1/coupon";
@@ -21,12 +17,12 @@ namespace E_Commerce.PB.Web.Services
             _client = client ?? throw new ArgumentNullException(nameof(client));
         }
 
-        public async Task<CouponViewModel> GetCoupon(string code, string token)
+        public async Task<CuponViewModel> GetCoupon(string code, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             var response = await _client.GetAsync($"{BasePath}/{code}");
-            if (response.StatusCode != HttpStatusCode.OK) return new CouponViewModel();
-            return await response.ReadContentAs<CouponViewModel>();
+            if (response.StatusCode != HttpStatusCode.OK) return new CuponViewModel();
+            return await response.ReadContentAs<CuponViewModel>();
         }
     }
 }

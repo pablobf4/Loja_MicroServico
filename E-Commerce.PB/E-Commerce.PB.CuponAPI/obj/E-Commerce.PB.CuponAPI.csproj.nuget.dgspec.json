@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj": {}
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj": {
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj",
         "projectName": "E-Commerce.PB.CuponAPI",
-        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj",
+        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj",
         "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\obj\\",
+        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rVRp556/Dvo1B0swbnU8KS6p3YK35OA+Pt6KbCrNBHIhm/Gpxt/pEtbiOonEhF9yjaWKTC3VIxrWie254zhAtQ==",
+  "dgSpecHash": "iWof1ARbpHdgoZaS4sNhpVkpgwDctMmYV1Q88qrt17VWbdorukbZIO4zunzs4X1KknFLX4tXUBBK9902V5KaKA==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.PagamentoAPI\\E-Commerce.PB.PagamentoAPI.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.PagamentoAPI\\E-Commerce.PB.PagamentoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0-preview.6.21355.2\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0-preview.6.21355.2.nupkg.sha512",

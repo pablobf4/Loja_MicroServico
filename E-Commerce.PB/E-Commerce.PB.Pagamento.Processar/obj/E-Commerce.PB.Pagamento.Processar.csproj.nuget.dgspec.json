@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj": {}
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj": {
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj",
         "projectName": "E-Commerce.PB.Pagamento.Processar",
-        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj",
+        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\E-Commerce.PB.Pagamento.Processar.csproj",
         "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\obj\\",
+        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.Pagamento.Processar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

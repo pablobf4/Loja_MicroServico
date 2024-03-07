@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj": {}
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj": {
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj",
         "projectName": "E-Commerce.PB.MessageBus",
-        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj",
+        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj",
         "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\obj\\",
+        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj": {
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
         "projectName": "E-Commerce.PB.OrdemAPI",
-        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
+        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
         "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\obj\\",
+        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj": {
-                "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj"
+              "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj": {
+                "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj"
               }
             }
           }
@@ -120,10 +120,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0-preview.6.21352.1, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[6.0.0-preview.5, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

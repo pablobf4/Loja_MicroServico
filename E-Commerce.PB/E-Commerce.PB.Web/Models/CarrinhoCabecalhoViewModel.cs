@@ -6,17 +6,17 @@ namespace E_Commerce.PB.Web.Models
     {
         public long Id { get; set; }
         public string UserId { get; set; }
-        public string CouponCode { get; set; }
-        public decimal PurchaseAmount { get; set; }
+        public string CuponCode { get; set; }
+        public decimal ValorCompra { get; set; }
 
-        public decimal DiscountAmount { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime DateTime { get; set; }
-        public string Phone { get; set; }
+        public decimal ValorDesconto { get; set; }
+        public string PrimeiroNome { get; set; }
+        public string Sobrenome { get; set; }
+        public DateTime Data { get; set; }
+        public string Telefone { get; set; }
         public string Email { get; set; }
-        public string CardNumber { get; set; }
+        public string NumeroCarrinho { get; set; }
         public string CVV { get; set; }
-        public string ExpiryMothYear { get; set; }
+        public string ExpiracaoMesAno { get; set; }
     }
 }

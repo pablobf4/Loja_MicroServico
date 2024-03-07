@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QD2L8FoU6ItxyCSKJB1DgGhNkYZuSEvZGcJh3RYFTfwzuFxgBUCojK0DkzGo8lrcQyPMW9e/pEko4FchX+VQzw==",
+  "dgSpecHash": "CYGble2QKLdSCQDc0m5SuGCmfnAr5GzeFbWSnohcRJpumkifGe2BAy/wpbpWb2GS+so+YDnXLGzcfAde1Ir+ag==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CarrinhoAPI\\E-Commerce.PB.CarrinhoAPI.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.CarrinhoAPI\\E-Commerce.PB.CarrinhoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj": {}
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj": {
+    "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj",
         "projectName": "E-Commerce.PB.EmailAPI",
-        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj",
+        "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj",
         "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\obj\\",
+        "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

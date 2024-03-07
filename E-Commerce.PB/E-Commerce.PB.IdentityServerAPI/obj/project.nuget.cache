@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Er/9r+kitfdwjHr8ertpKhjqSMBRyt9VawLqUdLXo0YAjM8TV+HlhBtms4b5C1XtHmTugKhm/4T5zDYezm7Xw==",
+  "dgSpecHash": "DEPVmjhvRsFUlNlGYa/fT6uAHE/7InH1TPlFaPqwFYpcPv1kBDDDzh0E+QXo92m0sDInSM7nV93l+WNEcNYpsw==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.IdentityServerAPI\\E-Commerce.PB.IdentityServerAPI.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.IdentityServerAPI\\E-Commerce.PB.IdentityServerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

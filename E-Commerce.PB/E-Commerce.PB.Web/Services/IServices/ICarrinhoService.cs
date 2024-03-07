@@ -15,6 +15,6 @@ namespace E_Commerce.PB.Web.Services.IServices
         Task<bool> RemoveCoupon(string userId, string token);
         Task<bool> ClearCart(string userId, string token);
 
-        Task<object> Checkout(CarrinhoViewModel cartHeader, string token);
+        Task<object> Checkout(CarrinhoCabecalhoViewModel cartHeader, string token);
      }
 }

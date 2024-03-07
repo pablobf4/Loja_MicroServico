@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jq6gDlxcna+pxDZrVZ3GwupR72CpZYkLUrkigC+bHvlaCeksP/6efTK2QJwDtycEIj/wvoBE5pviGmJIU9INjg==",
+  "dgSpecHash": "4g9AdeKoVs+cGUzvhioRHP+AteFy0N1eAXZzBT+K/ED5v0pJ+812wrzAkWLysULVa1IzFrzjZr1B4YXH7QzC0A==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.CuponAPI\\E-Commerce.PB.CuponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AnUbAPBWw+1CuQd70LUh11ag6liBR3XWio7CTYlrCKaehFPA93jK7kP8pjhIcu8CZOdpvRHzLsAy2NXvvq1O0g==",
+  "dgSpecHash": "0Fcd6WyjuXIKG238vbZD98LcQOLeP58fStu2KpJAPWCxWVLNAKWd9Ed7A+fihzihej0NThICltPezONaL1xu1w==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.GatewayAPI\\E-Commerce.PB.GatewayAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\identitymodel\\6.0.0-preview.2\\identitymodel.6.0.0-preview.2.nupkg.sha512",

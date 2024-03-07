@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sO7YACz2Gf0+inhvSAtpeh19ltK5fqpTowKislmjIT2HuOM69V5WwDs0ycH0MEL0jHEZpllKutfDV9XjsjNlwQ==",
+  "dgSpecHash": "E1fXP9TqtDm/YnKzDX8Kiq+Hi2UWcIF96ohkPE5V2Hucq6HF+008suuEx1lnYwZqSocXnqmTsZ7J4erxB796xw==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.ProdutoAPI\\E-Commerce.PB.ProdutoAPI.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.ProdutoAPI\\E-Commerce.PB.ProdutoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

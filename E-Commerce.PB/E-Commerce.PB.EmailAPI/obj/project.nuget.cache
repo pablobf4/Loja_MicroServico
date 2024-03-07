@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rY0F6iskMdZkO4STcvZsZiVV+SLRDuHCSAy+BEnC9pQCNV7NSdKZr+zPNT4tjHpMGfs9/qUsCyczVNHR2Cp0MQ==",
+  "dgSpecHash": "kQi6fb7KIT2xOZjMRmp8u/R/AtGuS3gXWVJuhXnXTErBLXENltxwp4yXwdCuUnksiKzvJ51rF8Lu+WmBDSm0tg==",
   "success": true,
-  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj",
+  "projectFilePath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.EmailAPI\\E-Commerce.PB.EmailAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\pablo.barros\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

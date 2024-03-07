@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Humanizer.dll": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -55,7 +55,7 @@
           "System.Diagnostics.DiagnosticSource": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -68,7 +68,7 @@
       "Microsoft.EntityFrameworkCore.Abstractions/6.0.0-preview.6.21352.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -94,7 +94,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.0-preview.6.21352.1"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -114,7 +114,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -153,7 +153,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -173,7 +173,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -189,7 +189,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -206,7 +206,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
@@ -219,7 +219,7 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.6.21352.12": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
@@ -239,7 +239,7 @@
           "System.Diagnostics.DiagnosticSource": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
@@ -256,7 +256,7 @@
           "System.Memory": "4.5.4"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -273,7 +273,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
@@ -289,7 +289,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.6.21352.12"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -393,38 +393,6 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "MySqlConnector/1.3.10": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Pomelo.EntityFrameworkCore.MySql/6.0.0-preview.5": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "6.0.0-preview.5.21301.9",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.0-preview.5.21301.9",
-          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5",
-          "MySqlConnector": "1.3.10"
-        },
-        "compile": {
-          "lib/net5.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "related": ".runtimeconfig.json;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "related": ".runtimeconfig.json;.xml"
           }
         }
       },
@@ -536,7 +504,7 @@
       "System.Collections.Immutable/6.0.0-preview.6.21352.12": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Collections.Immutable.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -549,7 +517,7 @@
       "System.Diagnostics.DiagnosticSource/6.0.0-preview.6.21352.12": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -588,7 +556,7 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.6.21352.12": {
         "type": "package",
         "compile": {
-          "ref/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+          "ref/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -1373,52 +1341,6 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "MySqlConnector/1.3.10": {
-      "sha512": "geL3pNiwbSXzUqQLHLm2/igDHuz5Q4qqp2rKczYoIHtdvvrsd5fnYHN8eFgP81qu77Blv0+0IOn69RJATNQoSQ==",
-      "type": "package",
-      "path": "mysqlconnector/1.3.10",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net45/MySqlConnector.dll",
-        "lib/net45/MySqlConnector.xml",
-        "lib/net461/MySqlConnector.dll",
-        "lib/net461/MySqlConnector.xml",
-        "lib/net471/MySqlConnector.dll",
-        "lib/net471/MySqlConnector.xml",
-        "lib/net5.0/MySqlConnector.dll",
-        "lib/net5.0/MySqlConnector.xml",
-        "lib/netcoreapp2.1/MySqlConnector.dll",
-        "lib/netcoreapp2.1/MySqlConnector.xml",
-        "lib/netcoreapp3.1/MySqlConnector.dll",
-        "lib/netcoreapp3.1/MySqlConnector.xml",
-        "lib/netstandard1.3/MySqlConnector.dll",
-        "lib/netstandard1.3/MySqlConnector.xml",
-        "lib/netstandard2.0/MySqlConnector.dll",
-        "lib/netstandard2.0/MySqlConnector.xml",
-        "lib/netstandard2.1/MySqlConnector.dll",
-        "lib/netstandard2.1/MySqlConnector.xml",
-        "logo.png",
-        "mysqlconnector.1.3.10.nupkg.sha512",
-        "mysqlconnector.nuspec"
-      ]
-    },
-    "Pomelo.EntityFrameworkCore.MySql/6.0.0-preview.5": {
-      "sha512": "G+6VwClveZmjOxrrjOnzYPPC5GpT6kk8mvFqk4KZ8s0ydQRdif7fRq/2wG36A3rJA/jNDLVh8VQ9u8eQ3x0SHA==",
-      "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/6.0.0-preview.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net5.0/Pomelo.EntityFrameworkCore.MySql.dll",
-        "lib/net5.0/Pomelo.EntityFrameworkCore.MySql.runtimeconfig.json",
-        "lib/net5.0/Pomelo.EntityFrameworkCore.MySql.xml",
-        "pomelo.entityframeworkcore.mysql.6.0.0-preview.5.nupkg.sha512",
-        "pomelo.entityframeworkcore.mysql.nuspec"
-      ]
-    },
     "RabbitMQ.Client/6.2.2": {
       "sha512": "+tJSgE+rQXgLvOxWvOxdZ0+No1EMa86+puZuNlCb4cNryHw2PY2Xiw/y2dz/WWdeJQp74Y2UnNXPkuLiYpvn+A==",
       "type": "package",
@@ -1789,7 +1711,6 @@
       "E-Commerce.PB.MessageBus >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0-preview.6.21355.2",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0-preview.6.21352.1",
-      "Pomelo.EntityFrameworkCore.MySql >= 6.0.0-preview.5",
       "RabbitMQ.Client >= 6.2.2",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Swashbuckle.AspNetCore.Annotations >= 6.4.0",
@@ -1803,11 +1724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
+      "projectUniqueName": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
       "projectName": "E-Commerce.PB.OrdemAPI",
-      "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
+      "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\E-Commerce.PB.OrdemAPI.csproj",
       "packagesPath": "C:\\Users\\pablo.barros\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\obj\\",
+      "outputPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.OrdemAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1830,8 +1751,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj": {
-              "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj"
+            "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj": {
+              "projectPath": "C:\\WorkSpace\\MicroServicoEstudo\\Loja_MicroServico\\E-Commerce.PB\\E-Commerce.PB.MessageBus\\E-Commerce.PB.MessageBus.csproj"
             }
           }
         }
@@ -1855,10 +1776,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.0-preview.6.21352.1, )"
-          },
-          "Pomelo.EntityFrameworkCore.MySql": {
-            "target": "Package",
-            "version": "[6.0.0-preview.5, )"
           },
           "RabbitMQ.Client": {
             "target": "Package",

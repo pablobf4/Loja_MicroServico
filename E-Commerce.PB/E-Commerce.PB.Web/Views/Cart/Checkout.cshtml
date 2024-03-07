@@ -1,18 +1,18 @@
-﻿@model GeekShopping.Web.Models.CartViewModel
+﻿@model E_Commerce.PB.Web.Models.CarrinhoViewModel
 
 @if (TempData["Error"] != null)
 {
     <div class="alert alert-warning" role="alert">@TempData["Error"]</div>
 }
 
-@if (Model != null && Model.CartDetails.Count() > 0)
+@if (Model != null && Model.CartDetalhe.Count() > 0)
 {
     <form method="post">
-        <input asp-for="CartHeader.UserId" hidden />
-        <input asp-for="CartHeader.Id" hidden />
-        <input asp-for="CartHeader.CouponCode" hidden />
-        <input asp-for="CartHeader.DiscountAmount" hidden />
-        <input asp-for="CartHeader.PurchaseAmount" hidden />
+        <input asp-for="CartCabecalho.UserId" hidden />
+        <input asp-for="CartCabecalho.Id" hidden />
+        <input asp-for="CartCabecalho.CuponCode" hidden />
+        <input asp-for="CartCabecalho.ValorDesconto" hidden />
+        <input asp-for="CartCabecalho.ValorCompra" hidden />
         <div>
             <span style="font-size:25px;" class="text-warning">Enter details and place order:</span>
             <br/>
@@ -23,31 +23,31 @@
                     <div class="row">
                         <div class="col-12">
                             <label class="col-form-label">First Name:</label>
-                            <input asp-for="CartHeader.FirstName" class="form-control"/>
+                            <input asp-for="CartCabecalho.PrimeiroNome" class="form-control" />
                         </div>
                         <div class="col-12">
                             <label class="col-form-label">Last Name:</label>
-                            <input asp-for="CartHeader.LastName" class="form-control"/>
+                            <input asp-for="CartCabecalho.Sobrenome" class="form-control" />
                         </div>
                         <div class="col-12">
                             <label class="col-form-label">E-mail:</label>
-                            <input asp-for="CartHeader.Email" class="form-control"/>
+                            <input asp-for="CartCabecalho.Email" class="form-control" />
                         </div>
                         <div class="col-12">
                             <label class="col-form-label">Phone Number:</label>
-                            <input asp-for="CartHeader.Phone" class="form-control"/>
+                            <input asp-for="CartCabecalho.Telefone" class="form-control" />
                         </div>
                         <div class="col-12">
                             <label class="col-form-label">Card Number:</label>
-                            <input asp-for="CartHeader.CardNumber" class="form-control"/>
+                            <input asp-for="CartCabecalho.NumeroCarrinho" class="form-control" />
                         </div>
                         <div class="col-12">
                             <label class="col-form-label">CVV:</label>
-                            <input asp-for="CartHeader.CVV" class="form-control"/>
+                            <input asp-for="CartCabecalho.CVV" class="form-control" />
                         </div>
                         <div class="col-12 pb-4">
                             <label class="col-form-label">Expiry:</label>
-                            <input asp-for="CartHeader.ExpiryMothYear" placeholder="MMYY" class="form-control"/>
+                            <input asp-for="CartCabecalho.ExpiracaoMesAno" placeholder="MMYY" class="form-control" />
                         </div>
                     </div>
                 </div>
@@ -70,17 +70,17 @@
 
                             <hr/>
 
-                            @foreach (var item in Model.CartDetails)
+                            @foreach (var item in Model.CartDetalhe)
                             {
                             <div class="row h-100">
                                 <div class="col-6">
-                                    <span style="font-size:20px;">@item.Product.Name</span>
+                                        <span style="font-size:20px;">@item.Produto.Name</span>
                                 </div>
                                 <div class="col-3">
-                                    <span style="font-size:17px;">@string.Format("{0:c}", item.Product.Price)</span>
+                                    <span style="font-size:17px;">@string.Format("{0:c}", item.Produto.Price)</span>
                                 </div>
                                 <div class="col-3">
-                                    <span style="font-size:17px;">@item.Count
+                                    <span style="font-size:17px;">@item.Contar
                                     </span>
                                 </div>
 
@@ -90,11 +90,11 @@
                             }
                             <div class="row">
                                 <div class="col-12 text-right pr-4 text-danger">
-                                Purchase Amount: @string.Format("{0:c}", Model.CartHeader.PurchaseAmount)<br/>
-                                @if(Model.CartHeader.DiscountAmount > 0)
+                                    Purchase Amount: @string.Format("{0:c}", Model.CartCabecalho.ValorCompra)<br />
+                                    @if (Model.CartCabecalho.ValorDesconto > 0)
                                 {
                                     <span class="text-success">
-                                        Discount Amount: @string.Format("{0:c}", Model.CartHeader.DiscountAmount)
+                                            Discount Amount: @string.Format("{0:c}", Model.CartCabecalho.ValorDesconto)
                                     </span>
                                 }
                                 </div>

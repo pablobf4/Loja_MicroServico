@@ -1,4 +1,3 @@
-using System;
 
 namespace E_Commerce.PB.Web.Models
 {

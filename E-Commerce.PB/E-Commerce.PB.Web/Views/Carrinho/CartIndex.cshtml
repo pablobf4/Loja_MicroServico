@@ -1,11 +1,11 @@
 ﻿@model E_Commerce.PB.Web.Models.CarrinhoViewModel
 
-@if (Model.CartCabecalho != null && Model.CartDetalhe.Count() > 0)
+@if (Model.CarrinhoCabecalho != null && Model.CarrinhoDetalhe.Count() > 0)
 {
     <form method="post">
         <br/>
-        <input asp-for="CartCabecalho.UserId" hidden />
-        <input asp-for="CartCabecalho.Id" hidden />
+        <input asp-for="CarrinhoCabecalho.UserId" hidden />
+        <input asp-for="CarrinhoCabecalho.Id" hidden />
         <div>
             <div class="card border mt-4 container">
                 <div class="card-header bg-dark text-light ml-0 row">
@@ -40,21 +40,21 @@
 
                     <hr/>
 
-                    @foreach (var item in Model.CartDetalhe)
+                    @foreach (var item in Model.CarrinhoDetalhe)
                     {
                     <div class="row h-100">
                         <div class="col-4 col-md-2 text-center py-2">
                             <img src="@item.Produto.ImageURL" class="rounded" width="100%"/>
                         </div>
                         <div class="col-8 col-md-5">
-                            <h5>@item.Produto.Name</h5>
+                            <h5>@item.Produto.Nome</h5>
                             <div style="font-size:11px;">
-                                @Html.Raw(item.Produto.Description)
+                                @Html.Raw(item.Produto.Descricao)
                             </div>
                         </div>
                         <div class="col-3 col-md-2 pt-md-4" style="font-size:11px;">
                             <span style="font-size:17px;">
-                                @string.Format("{0:c}", item.Produto.Price)
+                                @string.Format("{0:c}", item.Produto.Preco)
                             </span>
                         </div>
                         <div class="col-3 col-md-2 pt-md-4" style="font-size:11px;">
@@ -72,10 +72,10 @@
                     }                   
                     <div class="row">
                         <div class="col-6">
-                            @if (string.IsNullOrEmpty(Model.CartCabecalho.CuponCode))
+                            @if (string.IsNullOrEmpty(Model.CarrinhoCabecalho.CuponCode))
                             {
                                 <span>Coupon:</span>
-                                <input asp-for="CartCabecalho.CuponCode" />
+                                <input asp-for="CarrinhoCabecalho.CuponCode" />
                                 <button type="submit" asp-action="ApplyCoupon" class="btn-success">
                                     Apply
                                 </button>
@@ -83,7 +83,7 @@
                             else
                             {
                                 <span>Coupon:</span>
-                                <input asp-for="CartCabecalho.CuponCode" disabled />
+                                <input asp-for="CarrinhoCabecalho.CuponCode" disabled />
                                 <button type="submit" asp-action="RemoveCoupon" class="btn-danger">
                                     Remove
                                 </button>
@@ -91,13 +91,13 @@
                         </div>
                         <div class="col-6 text-end">
                             <span class="text-danger" style="font-size:21px;">
-                                Purchase Amount: @string.Format("{0:c}", Model.CartCabecalho.ValorCompra)
+                                Purchase Amount: @string.Format("{0:c}", Model.CarrinhoCabecalho.ValorCompra)
                                 <br/>
                             </span>
-                            @if (Model.CartCabecalho.ValorDesconto > 0)
+                            @if (Model.CarrinhoCabecalho.ValorDesconto > 0)
                             {
                                 <span class="text-success">
-                                    Discount Amount: @string.Format("{0:c}", Model.CartCabecalho.ValorDesconto)
+                                    Discount Amount: @string.Format("{0:c}", Model.CarrinhoCabecalho.ValorDesconto)
                                     <br/>
                                 </span>
                             }

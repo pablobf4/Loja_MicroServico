@@ -24,11 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Migrations\" />
+    <ProjectReference Include="..\E-Commerce.PB.MessageBus\E-Commerce.PB.MessageBus.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\E-Commerce.PB.MessageBus\E-Commerce.PB.MessageBus.csproj" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

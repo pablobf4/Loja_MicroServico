@@ -2,14 +2,20 @@
 
 <form method="post">
     <input asp-for="Id" hidden/>
+    <input asp-for="Preco" hidden />
+    <input asp-for="Descricao" hidden />
+    <input asp-for="CategoriaNome" hidden />
+    <input asp-for="ImageURL" hidden />
+    <input asp-for="Nome" hidden />
+
     <div class="pt-4">
         <div class="card container" style="border:1px solid #808080;">
             <div class="card-header text-light row" style="border-radius: 0px;">
                 <div class="col-12 col-md-9">
-                    <h1 class="text-dark">@Model.Name</h1>
+                    <h1 class="text-dark">@Model.Nome</h1>
                 </div>
                 <div class="col-12 col-md-3 text-end">
-                    <h1 class="text-warning">@((Model.Price).ToString("c"))</h1>
+                    <h1 class="text-warning">@((Model.Preco).ToString("c"))</h1>
                 </div>
             </div>
             <div class="card-body">
@@ -22,10 +28,10 @@
                             <div class="row pl-3">
                                 <div class="col-12">
                                     <span class="badge badge-primary text-success p-3 border">
-                                        @Model.CategoryName
+                                        @Model.CategoriaNome
                                     </span>
                                     <h3 class="text-success"></h3>
-                                    <p class="text-secondary">@Html.Raw(Model.Description)</p>
+                                    <p class="text-secondary">@Html.Raw(Model.Descricao)</p>
                                 </div>
                             </div>
                             <div class="row px-4">

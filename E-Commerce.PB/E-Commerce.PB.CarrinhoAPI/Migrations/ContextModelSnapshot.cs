@@ -16,12 +16,12 @@ namespace ECommerce.PB.CarrinhoAPI.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("produtoVersion", "7.0.0")
+                .HasAnnotation("ProductVersion", "7.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("E_Commerce.PB.CarrinhoAPI.Model.Base.CarrinhoCabecalho", b =>
+            modelBuilder.Entity("E_Commerce.PB.CarrinhoAPI.Model.CarrinhoCabecalho", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -44,7 +44,7 @@ namespace ECommerce.PB.CarrinhoAPI.Migrations
                     b.ToTable("carrinho_cabecalho");
                 });
 
-            modelBuilder.Entity("E_Commerce.PB.CarrinhoAPI.Model.Base.CarrinhoDetalhe", b =>
+            modelBuilder.Entity("E_Commerce.PB.CarrinhoAPI.Model.CarrinhoDetalhe", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -72,7 +72,7 @@ namespace ECommerce.PB.CarrinhoAPI.Migrations
                     b.ToTable("carrinho_detalhe");
                 });
 
-            modelBuilder.Entity("E_Commerce.PB.CarrinhoAPI.Model.Base.Produto", b =>
+            modelBuilder.Entity("E_Commerce.PB.CarrinhoAPI.Model.Produto", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -114,15 +114,15 @@ namespace ECommerce.PB.CarrinhoAPI.Migrations
                     b.ToTable("produto");
                 });
 
-            modelBuilder.Entity("E_Commerce.PB.CarrinhoAPI.Model.Base.CarrinhoDetalhe", b =>
+            modelBuilder.Entity("E_Commerce.PB.CarrinhoAPI.Model.CarrinhoDetalhe", b =>
                 {
-                    b.HasOne("E_Commerce.PB.CarrinhoAPI.Model.Base.CarrinhoCabecalho", "CarrinhoCabecalho")
+                    b.HasOne("E_Commerce.PB.CarrinhoAPI.Model.CarrinhoCabecalho", "CarrinhoCabecalho")
                         .WithMany()
                         .HasForeignKey("CarrinhoCabecalhoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("E_Commerce.PB.CarrinhoAPI.Model.Base.Produto", "Produto")
+                    b.HasOne("E_Commerce.PB.CarrinhoAPI.Model.Produto", "Produto")
                         .WithMany()
                         .HasForeignKey("ProdutoId")
                         .OnDelete(DeleteBehavior.Cascade)

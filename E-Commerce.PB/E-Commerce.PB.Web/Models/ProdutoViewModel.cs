@@ -5,10 +5,10 @@ namespace E_Commerce.PB.Web.Models
     public class ProdutoViewModel
     {
         public long Id { get; set; }
-        public string Name { get; set; }
-        public decimal Price { get; set; }
-        public string Description { get; set; }
-        public string CategoryName { get; set; }
+        public string Nome { get; set; }
+        public decimal Preco { get; set; }
+        public string Descricao { get; set; }
+        public string CategoriaNome { get; set; }
         public string ImageURL { get; set; }
 
         [Range(1, 100)]
@@ -16,14 +16,17 @@ namespace E_Commerce.PB.Web.Models
 
         public string SubstringName()
         {
-            if (Name.Length < 24) return Name;
-            return $"{ Name.Substring(0, 21) } ...";
+            if (Nome.Length < 24) return Nome;
+            return $"{ Nome.Substring(0, 21) } ...";
         }
 
         public string SubstringDescription()
         {
-            if (Description.Length < 355) return Description;
-            return $"{ Description.Substring(0, 352) } ...";
+            if (Descricao.Length < 355) return Descricao;
+            return $"{ Descricao.Substring(0, 352) } ...";
         }
+
+
+
     }
 }

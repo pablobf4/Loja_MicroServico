@@ -47,7 +47,7 @@ namespace E_Commerce.PB.Web.Controllers
 
             CarrinhoViewModel cart = new()
             {
-                CartCabecalho = new CarrinhoCabecalhoViewModel
+                CarrinhoCabecalho = new CarrinhoCabecalhoViewModel
                 {
                     UserId = User.Claims.Where(u => u.Type == "sub")?.FirstOrDefault()?.Value
                 }
@@ -62,7 +62,7 @@ namespace E_Commerce.PB.Web.Controllers
 
             List<CarrinhoDetalheViewModel> carrinhoDetalhe = new List<CarrinhoDetalheViewModel>();
             carrinhoDetalhe.Add(cartDetail);
-            cart.CartDetalhe = carrinhoDetalhe;
+            cart.CarrinhoDetalhe = carrinhoDetalhe;
 
             var response = await _cartService.AddItemToCart(cart, token);
             if(response != null)

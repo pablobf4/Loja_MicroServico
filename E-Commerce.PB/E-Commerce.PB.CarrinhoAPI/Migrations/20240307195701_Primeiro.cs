@@ -4,10 +4,8 @@
 
 namespace ECommerce.PB.CarrinhoAPI.Migrations
 {
-    /// <inheritdoc />
-    public partial class criaCarrinho : Migration
+    public partial class Primeiro : Migration
     {
-        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -28,8 +26,7 @@ namespace ECommerce.PB.CarrinhoAPI.Migrations
                 name: "produto",
                 columns: table => new
                 {
-                    id = table.Column<long>(type: "bigint", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    id = table.Column<long>(type: "bigint", nullable: false),
                     nome = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
                     preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     descricao = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
@@ -49,7 +46,7 @@ namespace ECommerce.PB.CarrinhoAPI.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CarrinhoCabecalhoId = table.Column<long>(type: "bigint", nullable: false),
                     ProdutoId = table.Column<long>(type: "bigint", nullable: false),
-                    Conta = table.Column<int>(type: "int", nullable: false)
+                    Contar = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

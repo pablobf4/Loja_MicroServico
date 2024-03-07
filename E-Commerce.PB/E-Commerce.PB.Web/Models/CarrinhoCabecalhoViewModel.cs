@@ -8,7 +8,7 @@ namespace E_Commerce.PB.Web.Models
         public string UserId { get; set; }
         public string CuponCode { get; set; }
         public decimal ValorCompra { get; set; }
-
+        public string Titulo { get; set; }
         public decimal ValorDesconto { get; set; }
         public string PrimeiroNome { get; set; }
         public string Sobrenome { get; set; }

@@ -18,9 +18,11 @@ namespace E_Commerce.PB.Web.Controllers
             _produtoService = produtoService ?? throw new ArgumentNullException(nameof(produtoService));
         }
 
+        [Authorize]
         public async Task<IActionResult> produtoIndex()
         {
-            var produtos = await _produtoService.FindAllprodutos("");
+            var token = await HttpContext.GetTokenAsync("access_token");
+            var produtos = await _produtoService.FindAllprodutos(token);
             return View(produtos);
         }
 

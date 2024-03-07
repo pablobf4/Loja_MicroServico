@@ -27,14 +27,14 @@ builder.Services.AddAuthentication(options =>
     {
         options.Authority = builder.Configuration["ServiceUrls:IdentityServer"];
         options.GetClaimsFromUserInfoEndpoint = true;
-        options.ClientId = "geek_shopping";
+        options.ClientId = "e-commerce";
         options.ClientSecret = "my_super_secret";
         options.ResponseType = "code";
         options.ClaimActions.MapJsonKey("role", "role", "role");
         options.ClaimActions.MapJsonKey("sub", "sub", "sub");
         options.TokenValidationParameters.NameClaimType = "name";
         options.TokenValidationParameters.NameClaimType = "role";
-        options.Scope.Add("geek_shopping");
+        options.Scope.Add("e-commerce");
         options.SaveTokens = true;
     }
     );

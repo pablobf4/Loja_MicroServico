@@ -807,3 +807,4 @@ C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Id
 C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.IdentityServerAPI\obj\Debug\net6.0\E-Commerce.PB.IdentityServerAPI.pdb
 C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.IdentityServerAPI\obj\Debug\net6.0\E-Commerce.PB.IdentityServerAPI.genruntimeconfig.cache
 C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.IdentityServerAPI\obj\Debug\net6.0\ref\E-Commerce.PB.IdentityServerAPI.dll
+C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.IdentityServerAPI\bin\Debug\net6.0\keys\is-signing-key-622954B7267002F03CB69D8282C029F1.json

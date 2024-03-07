@@ -31,7 +31,7 @@ namespace E_Commerce.PB.Web.Services
 
         public async Task<ProdutoViewModel> Createproduto(ProdutoViewModel model, string token)
         {
-            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer",token);
             var response = await _client.PostAsJson(BasePath, model);
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentAs<ProdutoViewModel>();

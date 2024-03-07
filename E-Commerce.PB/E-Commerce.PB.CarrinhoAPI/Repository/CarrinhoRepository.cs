@@ -110,12 +110,19 @@ namespace E_Commerce.PB.CarrinhoAPI.Repository
             Carrinho cart = _mapper.Map<Carrinho>(vo);
             //Checks if the produto is already saved in the database if it does not exist then save
             var produto = await _context.Produtos.FirstOrDefaultAsync(
-                p => p.Id == vo.CarrinhoDetalhe.FirstOrDefault().produtoId);
+                p => p.Id == vo.CarrinhoDetalhe.FirstOrDefault().ProdutotId);
 
             if (produto == null)
             {
-                _context.Produtos.Add(cart.CarrinhoDetalhe.FirstOrDefault().Produto);
-                await _context.SaveChangesAsync();
+                try {
+                    _context.Produtos.Add(cart.CarrinhoDetalhe.FirstOrDefault().Produto);
+                    await _context.SaveChangesAsync();
+                } 
+                catch (Exception e) {
+                    var mensage = e.Message.ToString();
+
+                }
+               
             }
 
             //Check if CartHeader is null

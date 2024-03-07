@@ -32,13 +32,13 @@
             {
                 <tr>
                     <td>
-                        @item.Name
+                        @item.Nome
                     </td>
                     <td>
-                        @item.CategoryName
+                        @item.CategoriaNome
                     </td>
                     <td>
-                        @((item.Price).ToString("c"))
+                        @((item.Preco).ToString("c"))
                     </td>
                     <td>
                        <a asp-action="produtoUpdate" class="btn btn-success" asp-route-id="@item.Id">

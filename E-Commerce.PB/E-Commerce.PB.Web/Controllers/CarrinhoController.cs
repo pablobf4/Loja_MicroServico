@@ -85,7 +85,7 @@ namespace E_Commerce.PB.Web.Controllers
         {
             var token = await HttpContext.GetTokenAsync("access_token");
 
-            var response = await _cartService.Checkout(model.CartCabecalho, token);
+            var response = await _cartService.Checkout(model.CarrinhoCabecalho, token);
 
             if (response != null && response.GetType() == typeof(string))
             {
@@ -112,22 +112,22 @@ namespace E_Commerce.PB.Web.Controllers
 
             var response = await _cartService.FindCartByUserId(userId, token);
 
-            if (response?.CartCabecalho != null)
+            if (response?.CarrinhoCabecalho != null)
             {
-                if (!string.IsNullOrEmpty(response.CartCabecalho.CuponCode))
+                if (!string.IsNullOrEmpty(response.CarrinhoCabecalho.CuponCode))
                 {
                     var coupon = await _couponService.
-                        GetCoupon(response.CartCabecalho.CuponCode, token);
+                        GetCoupon(response.CarrinhoCabecalho.CuponCode, token);
                     if (coupon?.CouponCode != null)
                     {
-                        response.CartCabecalho.ValorDesconto = coupon.DiscountAmount;
+                        response.CarrinhoCabecalho.ValorDesconto = coupon.DiscountAmount;
                     }
                 }
-                foreach (var detail in response.CartDetalhe)
+                foreach (var detail in response.CarrinhoDetalhe)
                 {
-                    response.CartCabecalho.ValorCompra += (detail.Produto.Price * detail.Contar);
+                    response.CarrinhoCabecalho.ValorCompra += (detail.Produto.Preco * detail.Contar);
                 }
-                response.CartCabecalho.ValorCompra -= response.CartCabecalho.ValorDesconto;
+                response.CarrinhoCabecalho.ValorCompra -= response.CarrinhoCabecalho.ValorDesconto;
             }
             return response;
         }

@@ -11,7 +11,7 @@ namespace E_Commerce.PB.Web.Services
     public class CarrinhoService : ICarrinhoService
     {
         private readonly HttpClient _client;
-        public const string BasePath = "api/cart";
+        public const string BasePath = "api/carrinho";
 
         public CarrinhoService(HttpClient client)
         {
@@ -21,14 +21,14 @@ namespace E_Commerce.PB.Web.Services
         public async Task<CarrinhoViewModel> FindCartByUserId(string userId, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.GetAsync($"{BasePath}/find-cart/{userId}");
+            var response = await _client.GetAsync($"{BasePath}/find-carrinho/{userId}");
             return await response.ReadContentAs<CarrinhoViewModel>();
         }
 
         public async Task<CarrinhoViewModel> AddItemToCart(CarrinhoViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.PostAsJson($"{BasePath}/add-cart", model);
+            var response = await _client.PostAsJson($"{BasePath}/add-carrinho", model);
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentAs<CarrinhoViewModel>();
             else throw new Exception("Something went wrong when calling API");
@@ -37,7 +37,7 @@ namespace E_Commerce.PB.Web.Services
         public async Task<CarrinhoViewModel> UpdateCart(CarrinhoViewModel model, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.PutAsJson($"{BasePath}/update-cart", model);
+            var response = await _client.PutAsJson($"{BasePath}/update-carrinho", model);
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentAs<CarrinhoViewModel>();
             else throw new Exception("Something went wrong when calling API");
@@ -46,7 +46,7 @@ namespace E_Commerce.PB.Web.Services
         public async Task<bool> RemoveFromCart(long cartId, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.DeleteAsync($"{BasePath}/remove-cart/{cartId}");
+            var response = await _client.DeleteAsync($"{BasePath}/remove-carrinho/{cartId}");
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentAs<bool>();
             else throw new Exception("Something went wrong when calling API");

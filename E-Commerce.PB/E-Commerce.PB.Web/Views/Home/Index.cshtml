@@ -10,12 +10,12 @@
                         <img src="@produto.ImageURL" class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title text-success">@produto.SubstringName()</h3>
-                            <span class="badge badge-light mb-2">@produto.CategoryName</span>
+                            <span class="badge badge-light mb-2">@produto.CategoriaNome</span>
                             <p class="card-text">@Html.Raw(produto.SubstringDescription())</p>
 
                             <div class="row">
                                 <div class="col pt-1">
-                                    <span style="font-size:23px;">@string.Format("{0:c}", produto.Price)</span>
+                                    <span style="font-size:23px;">@string.Format("{0:c}", produto.Preco)</span>
                                 </div>
                                 <div class="col">
                                     <a asp-action="Details" asp-route-id="@produto.Id"

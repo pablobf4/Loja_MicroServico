@@ -18,16 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\WorkSpace\MicroServicoEstudo\Loja_MicroServico\E-Commerce.PB\E-Commerce.PB.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Cart/CartIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0SW5kZXguY3NodG1s
+[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Carrinho/CartIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9cQ2FydEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Cart/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
+[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Carrinho/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9cQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Cart/Confirmation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDb25maXJtYXRpb24uY3NodG1s
+[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Carrinho/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9cQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Home/Details.cshtml]
@@ -42,20 +42,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Product/ProductCreate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0Q3JlYXRlLmNzaHRtbA==
+[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Produto/ProdutoCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcm9kdXRvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Product/ProductDelete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGVsZXRlLmNzaHRtbA==
+[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Produto/ProdutoDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcm9kdXRvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Product/ProductIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0SW5kZXguY3NodG1s
+[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Produto/ProdutoIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcm9kdXRvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Product/ProductUpdate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0VXBkYXRlLmNzaHRtbA==
+[C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Produto/ProdutoUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xQcm9kdXRvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/WorkSpace/MicroServicoEstudo/Loja_MicroServico/E-Commerce.PB/E-Commerce.PB.Web/Views/Shared/Error.cshtml]

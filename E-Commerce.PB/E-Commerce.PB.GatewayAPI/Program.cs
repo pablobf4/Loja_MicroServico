@@ -1,13 +1,8 @@
 using Microsoft.IdentityModel.Tokens;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
-using Ocelot.Values;
 
 var builder = WebApplication.CreateBuilder(args);
-
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddAuthentication("Bearer")
               .AddJwtBearer("Bearer", options =>

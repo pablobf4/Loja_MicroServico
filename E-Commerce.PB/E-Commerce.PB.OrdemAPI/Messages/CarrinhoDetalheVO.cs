@@ -3,10 +3,10 @@
     public class CarrinhoDetalheVO
     {
         public long Id { get; set; }
-        public long CartHeaderId { get; set; }
-        public long produtoId { get; set; }
-        public virtual ProdutoVO produto { get; set; }
+        public long CarrinhoCabecalhoId { get; set; }
+        public long ProdutotId { get; set; }
+        public virtual ProdutoVO Produto { get; set; }
 
-        public int Count { get; set; }
+        public int Contar { get; set; }
     }
 }

@@ -17,7 +17,7 @@ namespace E_Commerce.PB.CarrinhoAPI.Menssages
         public string? Titulo { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
-        public string CarrinhoNumero { get; set; }
+        public string NumeroCarrinho { get; set; }
         public string CVV { get; set; }
         public string ExpiracaoMesAno { get; set; }
         public int CarrinhoTotalItens { get; set; }

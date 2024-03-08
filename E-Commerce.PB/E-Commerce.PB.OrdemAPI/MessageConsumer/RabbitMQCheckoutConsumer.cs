@@ -28,7 +28,8 @@ namespace E_Commerce.PB.OrdemAPI.MessageConsumer
             {
                 HostName = "localhost",
                 UserName = "guest",
-                Password = "guest"
+                Password = "guest",
+                Port = 5672
             };
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();
@@ -55,32 +56,31 @@ namespace E_Commerce.PB.OrdemAPI.MessageConsumer
             OrdemCabecalho order = new()
             {
                 UserId = vo.UserId,
-                PrimeiroNome = vo.FirstName,
-                Sobrenome = vo.LastName,
+                PrimeiroNome = vo.PrimeiroNome,
+                Sobrenome = vo.Sobrenome,
                 DetalhesPedido = new List<OrdemDetalhe>(),
-                NumeroCartao = vo.CardNumber,
-                CupomCodigo = vo.CouponCode,
+                NumeroCartao = vo.NumeroCarrinho,
+                CupomCodigo = vo.CuponCode,
                 CVV = vo.CVV,
-                ValorDesconto = vo.DiscountAmount,
+                ValorDesconto = vo.ValorDesconto,
                 Email = vo.Email,
-                MesAnoExpiracao = vo.ExpiryMothYear,
+                MesAnoExpiracao = vo.ExpiracaoMesAno,
                 HoraPedido = DateTime.Now,
-                ValorCompra = vo.PurchaseAmount,
+                ValorCompra = vo.ValorCompra,
                 StatusPagamento = false,
-                Telefone = vo.Phone,
+                Telefone = vo.Telefone,
                 //DateTime = vo.DateTime
             };
 
-            foreach (var details in vo.CartDetails)
+            foreach (var details in vo.CarrinhoDetalhe)
             {
                 OrdemDetalhe detail = new()
                 {
-                    IdProduto = details.produtoId,
-                    NomeProduto = details.produto.Name,
-                    Preco = details.produto.Price
-                    //  = details.Count,
+                    IdProduto = details.Produto.Id,
+                    NomeProduto = details.Produto.Nome,
+                    Preco = details.Produto.Preco
                 };
-                order.TotalItensCarrinho += details.Count;
+                order.TotalItensCarrinho += details.Contar;
                 order.DetalhesPedido.Add(detail);
             }
 

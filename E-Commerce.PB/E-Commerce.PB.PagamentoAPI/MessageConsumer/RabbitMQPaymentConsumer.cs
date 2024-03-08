@@ -27,7 +27,8 @@ namespace E_Commerce.PB.PagamentoAPI.MessageConsumer
             {
                 HostName = "localhost",
                 UserName = "guest",
-                Password = "guest"
+                Password = "guest",
+                Port = 5672
             };
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();

@@ -1,6 +1,7 @@
 using AutoMapper;
 using E_Commerce.PB.CarrinhoAPI.Config;
 using E_Commerce.PB.CarrinhoAPI.Model.Context;
+using E_Commerce.PB.CarrinhoAPI.RabbitMQSender;
 using E_Commerce.PB.CarrinhoAPI.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -17,8 +18,11 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddDbContext<Context>(o => o.UseSqlServer("WebApiDatabase"));
 builder.Services.AddScoped<ICarrinhoRepository, CarrinhoRepository>();
-builder.Services.AddScoped<ICuponRepository, CuponRepository>();
+//builder.Services.AddScoped<ICuponRepository, CuponRepository>();
+builder.Services.AddScoped<IRabbitMQMessageSender, RabbitMQMessageSender>();
 builder.Services.AddHttpClient<ICuponRepository, CuponRepository>(s => s.BaseAddress = new Uri("https://localhost:4450"));
+
+
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>
     {

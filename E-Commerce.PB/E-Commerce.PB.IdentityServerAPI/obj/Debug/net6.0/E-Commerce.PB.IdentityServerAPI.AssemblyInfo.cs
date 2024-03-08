@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E-Commerce.PB.IdentityServerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d9a7368b77add5cacbb1b8c472b91555f88216f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("E-Commerce.PB.IdentityServerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E-Commerce.PB.IdentityServerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

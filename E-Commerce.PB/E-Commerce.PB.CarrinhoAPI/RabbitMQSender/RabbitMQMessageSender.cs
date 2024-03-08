@@ -12,6 +12,7 @@ namespace E_Commerce.PB.CarrinhoAPI.RabbitMQSender
         private readonly string _hostName;
         private readonly string _password;
         private readonly string _userName;
+        private readonly int _porta;
         private IConnection _connection;
 
         public RabbitMQMessageSender()
@@ -19,6 +20,7 @@ namespace E_Commerce.PB.CarrinhoAPI.RabbitMQSender
             _hostName = "localhost";
             _password = "guest";
             _userName = "guest";
+            _porta = 5672;
         }
 
         public void SendMessage(BaseMessage message, string queueName)
@@ -52,7 +54,8 @@ namespace E_Commerce.PB.CarrinhoAPI.RabbitMQSender
                 {
                     HostName = _hostName,
                     UserName = _userName,
-                    Password = _password
+                    Password = _password,
+                    Port = _porta
                 };
                 _connection = factory.CreateConnection();
             }

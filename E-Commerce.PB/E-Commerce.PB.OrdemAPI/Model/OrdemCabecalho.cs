@@ -14,7 +14,7 @@ namespace E_Commerce.PB.OrdemAPI.Modell
         public string UserId { get; set; }
 
         [Column("coupon_code")]
-        public string CupomCodigo { get; set; }
+        public string? CupomCodigo { get; set; }
 
         [Column("valor_compra")]
         public decimal ValorCompra { get; set; }

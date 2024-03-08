@@ -17,10 +17,18 @@ namespace E_Commerce.PB.CarrinhoAPI.Controllers
         private ICuponRepository _couponRepository;
         private IRabbitMQMessageSender _rabbitMQMessageSender;
 
-        public CarrinhoController(ICarrinhoRepository repository)
+        public CarrinhoController(
+            ICarrinhoRepository repository,
+            IRabbitMQMessageSender rabbitMQMessageSender,
+            ICuponRepository couponRepository)
         {
             _repository = repository ?? throw new
                 ArgumentNullException(nameof(repository));
+            _rabbitMQMessageSender = rabbitMQMessageSender ?? throw new
+            ArgumentNullException(nameof(rabbitMQMessageSender));
+            _couponRepository = couponRepository ?? throw new
+            ArgumentNullException(nameof(couponRepository));
+
         }
 
         [HttpGet("find-carrinho/{id}")]
